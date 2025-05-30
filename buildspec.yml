@@ -23,7 +23,7 @@ phases:
       - |
         echo '[
           {
-            "name": "container-soramichi-app",
+            "name": "soramichi-app",
             "imageUri": "'${ECR_REPOSITORY}':latest"
           }
         ]' > imagedefinitions.json
